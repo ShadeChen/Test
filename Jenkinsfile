@@ -9,7 +9,7 @@ pipeline {
 
     stage('Front-end Test') {
       steps {
-        sh 'npm run test:unit'
+        powershell 'npm run test:unit'
       }
     }
 
