@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Front-end Test') {
+      steps {
+        sh 'npm run test:unit'
+      }
+    }
+
   }
 }
