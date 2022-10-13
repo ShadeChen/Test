@@ -9,7 +9,7 @@ pipeline {
 
     stage('Front-end Test') {
       steps {
-        powershell 'npm run test:unit'
+        bat 'npm i'
       }
     }
 
